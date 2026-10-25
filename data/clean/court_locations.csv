@@ -1,0 +1,71 @@
+court,slug,lat,lon,fact_name,source
+Central Criminal Court,central-criminal-court,51.51549136658437,-0.1019971774864219,Central Criminal Court,https://www.find-court-tribunal.service.gov.uk/courts/central-criminal-court
+Southwark,southwark-crown-court,51.5057183553614,-0.0821715532269808,Southwark Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/southwark-crown-court
+Snaresbrook,snaresbrook-crown-court,51.5810172120785,0.0172837160586598,Snaresbrook Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/snaresbrook-crown-court
+Harrow,harrow-crown-court,51.593815031526255,-0.3398240411875093,Harrow Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/harrow-crown-court
+Wood Green,wood-green-crown-court,51.598840719306,-0.105165586070411,Wood Green Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/wood-green-crown-court
+Croydon,croydon-crown-court,51.37333752852084,-0.0921491329802691,Croydon Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/croydon-crown-court
+Inner London Sessions House,inner-london-crown-court,51.4981827741503,-0.0965350924886508,Inner London Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/inner-london-crown-court
+Woolwich,woolwich-crown-court,51.4964968815164,0.0901384001026491,Woolwich Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/woolwich-crown-court
+Blackfriars,,,,,closed - not in data after 2019/2016
+Isleworth,isleworth-crown-court,51.479215883716,-0.340330607301345,Isleworth Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/isleworth-crown-court
+Kingston Upon Thames,kingston-upon-thames-crown-court,51.4058944766291,-0.304698001777536,Kingston upon Thames Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/kingston-upon-thames-crown-court
+Derby,derby-combined-court-centre,52.92240607886994,-1.4731287215038882,Derby Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/derby-combined-court-centre
+Leicester,leicester-crown-court,52.6299106772431,-1.12737412570746,Leicester Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/leicester-crown-court
+Lincoln,lincoln-crown-court,53.2352232637392,-0.54173865169504,Lincoln Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/lincoln-crown-court
+Northampton,northampton-crown-county-and-family-court,52.2408030271539,-0.893639925303013,,https://www.find-court-tribunal.service.gov.uk/courts/northampton-crown-county-and-family-court
+Nottingham,nottingham-crown-court,52.9485399807164,-1.14665055509744,Nottingham Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/nottingham-crown-court
+Stafford,stafford-combined-court-centre,52.8054282557118,-2.11942919486724,Stafford Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/stafford-combined-court-centre
+Stoke On Trent,stoke-on-trent-combined-court,53.0220363536651,-2.17575390744261,Stoke-on-Trent Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/stoke-on-trent-combined-court
+Warwick,warwick-combined-court,52.2883886845691,-1.53345710604887,Warwick Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/warwick-combined-court
+Shrewsbury,shrewsbury-crown-court,52.7049493812992,-2.72980948630309,Shrewsbury Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/shrewsbury-crown-court
+Worcester,worcester-combined-court,52.196949238584,-2.22188333457011,Worcester Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/worcester-combined-court
+Birmingham,birmingham-crown-court,52.48305246372367,-1.8939647723386843,Birmingham Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/birmingham-crown-court
+Wolverhampton,wolverhampton-combined-court-centre,52.5843613876214,-2.12213213490178,Wolverhampton Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/wolverhampton-combined-court-centre
+Teesside,teesside-combined-court-centre,54.5752089185394,-1.23123218048167,Teesside Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/teesside-combined-court-centre
+Durham,durham-crown-court,54.7740831141334,-1.56790929232945,Durham Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/durham-crown-court
+Great Grimsby,great-grimsby-combined-court-centre,53.56485183499363,-0.0822232886084601,Great Grimsby Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/great-grimsby-combined-court-centre
+Kingston Upon Hull,kingston-upon-hull-combined-court-centre,53.7441794975371,-0.331682184152701,Kingston-upon-Hull Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/kingston-upon-hull-combined-court-centre
+York,york-crown-court,53.9552728450255,-1.07964693409877,York Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/york-crown-court
+Newcastle Upon Tyne,newcastle-upon-tyne-combined-court-centre,54.9697226263626,-1.60367736065054,Newcastle upon Tyne Crown Court and Magistrates&#39; Court,https://www.find-court-tribunal.service.gov.uk/courts/newcastle-upon-tyne-combined-court-centre
+Sheffield,sheffield-combined-court-centre,53.3855557386011,-1.46873900633777,Sheffield Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/sheffield-combined-court-centre
+Bradford,bradford-combined-court-centre,53.79257415687704,-1.7493590479705112,Bradford Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/bradford-combined-court-centre
+Leeds,leeds-combined-court-centre,53.8003756626313,-1.55175499198565,Leeds Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/leeds-combined-court-centre
+Chester,chester-crown-court,53.185887699485,-2.8917934203209583,Chester Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/chester-crown-court
+Carlisle,carlisle-combined-court,54.89348384006236,-2.931666735736129,Carlisle Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/carlisle-combined-court
+Bolton,bolton-crown-court,53.578203089018736,-2.433688800726629,Bolton Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/bolton-crown-court
+Manchester Crown Sq,manchester-crown-court-crown-square,53.4801223269455,-2.25220115628168,Manchester Crown Court (Crown Square),https://www.find-court-tribunal.service.gov.uk/courts/manchester-crown-court-crown-square
+Manchester Minshull St,manchester-crown-court-minshull-st,53.4786727845773,-2.23516609910164,Manchester Crown Court (Minshull St),https://www.find-court-tribunal.service.gov.uk/courts/manchester-crown-court-minshull-st
+Preston,preston-combined-court-centre,53.7623852928807,-2.698982792226,Preston Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/preston-combined-court-centre
+Liverpool,liverpool-crown-court,53.4041690732796,-2.98977778180236,Liverpool Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/liverpool-crown-court
+Luton,luton-crown-court,51.8780263307385,-0.414277870156741,Luton Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/luton-crown-court
+Cambridge,cambridge-crown-court,52.20680989810279,0.1368094775521128,Cambridge Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/cambridge-crown-court
+Basildon,basildon-combined-court,51.57257123669606,0.4547928146585846,Basildon Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/basildon-combined-court
+Chelmsford,chelmsford-crown-court,51.7424922743727,0.50060189507065,Chelmsford Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/chelmsford-crown-court
+St Albans,st-albans-crown-court,51.75163705933144,-0.3355357635729786,St Albans Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/st-albans-crown-court
+Canterbury,canterbury-combined-court-centre,51.28189580386076,1.094980113832126,Canterbury Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/canterbury-combined-court-centre
+Maidstone,maidstone-combined-court-centre,51.27098646787294,0.5186837746035337,Maidstone Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/maidstone-combined-court-centre
+Norwich,norwich-combined-court-centre,52.6341484805287,1.30103606000343,Norwich Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/norwich-combined-court-centre
+Ipswich,ipswich-crown-court,52.0535357822276,1.14359670572444,Ipswich Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/ipswich-crown-court
+Guildford,guildford-crown-court,51.23875808896375,-0.5789516919370375,Guildford Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/guildford-crown-court
+Lewes,lewes-combined-court-centre,50.8730858865804,0.0097447856699129,Lewes Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/lewes-combined-court-centre
+Aylesbury,aylesbury-crown-court,51.81079809474988,-0.8081996912001439,Aylesbury Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/aylesbury-crown-court
+Oxford,oxford-combined-court-centre,51.748170445032535,-1.257072084936972,Oxford Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/oxford-combined-court-centre
+Reading,reading-crown-court,51.4561376280813,-0.967403324249227,Reading Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/reading-crown-court
+Bristol,bristol-crown-court,51.45479219982575,-2.595001906353449,Bristol Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/bristol-crown-court
+Taunton,taunton-crown-county-and-family-court,51.01276840208385,-3.1077090163736383,,https://www.find-court-tribunal.service.gov.uk/courts/taunton-crown-county-and-family-court
+Exeter,exeter-law-courts,50.7212729831512,-3.52522940596798,Exeter Law Courts,https://www.find-court-tribunal.service.gov.uk/courts/exeter-law-courts
+Plymouth,plymouth-combined-court,50.3691939866746,-4.14169380101798,Plymouth Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/plymouth-combined-court
+Truro,,50.265615,-5.056455,,"postcodes.io TR1 2PB (Truro Courts of Justice, Edward St) - VERIFY, FaCT slug not found"
+Bournemouth,bournemouth-crown-court,50.74794273316312,-1.8162655408854127,Bournemouth Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/bournemouth-crown-court
+Dorchester,,,,,closed - not in data after 2019/2016
+Gloucester,gloucester-crown-court,51.86599304062575,-2.249265799962389,Gloucester Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/gloucester-crown-court
+Newport (Isle of Wight),isle-of-wight-combined-court,50.7012084808149,-1.29185829930182,,https://www.find-court-tribunal.service.gov.uk/courts/isle-of-wight-combined-court
+Portsmouth,portsmouth-combined-court-centre,50.7957528058825,-1.0911628562969,Portsmouth Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/portsmouth-combined-court-centre
+Southampton,southampton-combined-court-centre,50.913705657263,-1.40297689389965,Southampton Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/southampton-combined-court-centre
+Winchester,winchester-combined-court-centre,51.0624478484897,-1.31898486042345,Winchester Combined Court Centre,https://www.find-court-tribunal.service.gov.uk/courts/winchester-combined-court-centre
+Salisbury,salisbury-law-courts,51.0733767631129,-1.81038576058827,Salisbury Law Courts,https://www.find-court-tribunal.service.gov.uk/courts/salisbury-law-courts
+Swindon,swindon-combined-court,51.5611031967241,-1.78191090228549,Swindon Combined Court,https://www.find-court-tribunal.service.gov.uk/courts/swindon-combined-court
+Mold,mold-justice-centre,53.17699267035823,-3.13717025036554,,https://www.find-court-tribunal.service.gov.uk/courts/mold-justice-centre
+Cardiff,cardiff-crown-court,51.48454727570991,-3.180270492223599,Cardiff Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/cardiff-crown-court
+Swansea,swansea-crown-court,51.61443816626,-3.9575409584348,Swansea Crown Court,https://www.find-court-tribunal.service.gov.uk/courts/swansea-crown-court

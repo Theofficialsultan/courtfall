@@ -1,0 +1,97 @@
+# Sources checked for a causal effect the simulator could use.
+# None of these numbers is applied as a default. The simulator's
+# sitting-day gain and avoided-trial conversion stay editable assumptions.
+
+register_note: >
+  No randomised or quasi-experimental effect size for these Crown Court
+  interventions is used in the simulator. The studies below are national
+  descriptions. Historical rate and backlog backtests do not show that an
+  intervention caused a later change.
+
+claims:
+  - id: sitting_days
+    claim: Extra sitting days raise this court's disposals in proportion to the extra days.
+    status: assumption
+    label: Scenario assumption — causal effect not established.
+    evidence_informed_alternative:
+      name: IFS descriptive ratio, 2019 to 2024
+      disposal_change: 0.17
+      sitting_day_change: 0.29
+      meaning: >
+        17% more national disposals divided by 29% more national sitting days.
+        That is the ratio of two national changes, not the effect of buying
+        extra days at one court. The default stays 1.
+    sources:
+      - title: Productivity in the Crown Court
+        publisher: Institute for Fiscal Studies
+        date: 2025-06
+        url: https://ifs.org.uk/sites/default/files/2025-06/Report.%20Productivity%20in%20the%20Crown%20Court_0.pdf
+        intervention: National sitting days, 2019 to 2024
+        outcome: Case disposals, and disposals per sitting day
+        design: Observational national accounting
+        causal: false
+        applies_to_england_wales_crown: true
+        numeric_effect_used_in_simulator: false
+        limitation: >
+          Sitting days rose 29% and disposals rose 17%. Disposals per sitting
+          day moved from 1.16 in 2019-20 to 0.90 in 2022-23 and 1.05 in the
+          first three quarters of 2024-25. The report does not estimate the
+          causal effect of one extra day at a named court.
+      - title: Reducing the backlog in the Crown Court
+        publisher: National Audit Office
+        date: 2024-05
+        url: https://www.nao.org.uk/wp-content/uploads/2024/05/reducing-the-backlog-in-the-crown-court-1.pdf
+        intervention: Removal of the sitting-day cap
+        outcome: Sitting days and outstanding caseload
+        design: Performance audit, descriptive
+        causal: false
+        applies_to_england_wales_crown: true
+        numeric_effect_used_in_simulator: false
+        limitation: >
+          Sitting days went from 81,899 in 2019-20 to 100,950 in 2022-23, with
+          about 107,000 expected in 2023-24. The report does not give a
+          disposals-per-extra-day effect for the simulator.
+
+  - id: ineffective_causes
+    claim: Avoiding one ineffective trial creates one extra case disposal.
+    status: assumption
+    label: Scenario assumption — causal effect not established.
+    sources:
+      - title: Reducing the backlog in the Crown Court
+        publisher: National Audit Office
+        date: 2024-05
+        url: https://www.nao.org.uk/wp-content/uploads/2024/05/reducing-the-backlog-in-the-crown-court-1.pdf
+        intervention: None tested. The report counts ineffective trials.
+        outcome: Ineffective-trial share, and trials cancelled for want of counsel
+        design: Performance audit, descriptive
+        causal: false
+        applies_to_england_wales_crown: true
+        numeric_effect_used_in_simulator: false
+        limitation: >
+          The ineffective-trial share rose from 16% in 2019 to 27% in 2023.
+          Trials cancelled because counsel was unavailable rose from 71 in 2019
+          to 1,441 in 2023. Named reasons include witnesses, case preparation,
+          over-listing, barristers, and prisoner transport. None of those counts
+          is an effect of cutting a reason code by a given percent.
+
+  - id: prices
+    claim: Placeholder prices are reasonable costs of the cause levers.
+    status: assumption
+    label: Placeholder price — not a published per-court cost.
+    sources:
+      - title: Parliamentary question 4727
+        publisher: UK Parliament, answered for HMCTS
+        date: 2023-12-05
+        url: https://questions-statements.parliament.uk/written-questions/detail/2023-11-27/4727
+        intervention: None. This is a unit cost.
+        outcome: Average Crown Court sitting-day cost, 2022-23
+        design: Published management cost
+        causal: false
+        applies_to_england_wales_crown: true
+        numeric_effect_used_in_simulator: true
+        used_number: "£3,036 per sitting day, HMCTS costs only"
+        limitation: >
+          The £3,036 figure is a published average cost, not a marginal cost,
+          and it excludes legal aid and the CPS. It is not evidence that an
+          extra day disposes of a fixed number of cases. Every other lever
+          price in the simulator is a placeholder.

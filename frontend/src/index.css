@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-page: #f5f7fb;
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+  --color-line: #e6eaf2;
+  --color-navy: #0b1a33;
+  --color-blue: #2563eb;
+  --color-bad: #ef4444;
+  --color-good: #10b981;
+  --color-amber: #d97706;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #dbeafe;
+  color: #0f172a;
+}
+
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c5cedd transparent;
+}
+
+/* Grid children default to min-content, which lets wide tables and the map
+   push the page sideways on a phone. */
+.grid > * {
+  min-width: 0;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #eef2f7;
+  font-family: var(--font-sans);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  line-height: 1.4;
+}
+
+input[type="range"] {
+  accent-color: #2563eb;
+  height: 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

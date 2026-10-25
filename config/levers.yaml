@@ -1,0 +1,105 @@
+# Courtfall: the knobs a human is allowed to turn.
+# Later scripts will read this file. They must not hard-code these numbers.
+#
+# Edit any number in here. Two different kinds of number live side by side:
+#
+#   cost_per_unit + assumed
+#     assumed: false  -> published figure. Do not invent a replacement.
+#     assumed: true   -> round placeholder. No public per-court cost was found.
+#
+#   default_effect
+#     ALWAYS an assumption, even on the sitting-day row.
+#     It is the size of the intervention, not a measured result.
+#     Cause levers: fraction of THAT cause removed. 0.25 means "cut 25% of it".
+#     Sitting days: fraction of extra days. 0.05 means "+5% sitting days".
+#
+# One quarter, for a cause lever (overlisting, prosecution, and so on):
+#   trials_freed = ineffective_trials * lever_share * default_effect
+#   cost_gbp     = trials_freed * cost_per_unit
+#
+# Sitting days are priced per day. There is no per-court day count.
+# national_days_2025_26 is the national total. Splitting it across courts
+# by each court's share of disposals is an assumption.
+
+sitting_days:
+  label: Extra sitting days
+  cost_per_unit: 3036          # pounds per sitting day
+  unit: sitting_day
+  default_effect: 0.05         # +5% days. Assumed size, not a forecast.
+  assumed: false               # the £3,036 is cited; the 5% is not
+  # National total, financial year 2025-26. HMCTS management information,
+  # March 2026 release, as recorded in FEASIBILITY.md: 110,647 days sat.
+  # Not a per-court figure. The per-court split is assumed.
+  national_days_2025_26: 110647
+  days_split_assumed: true
+  source: >
+    HMCTS average Crown Court sitting-day cost, 2022-23, £3,036.
+    Parliamentary question 4727, answered 5 December 2023.
+    HMCTS costs only: excludes legal aid and the CPS.
+    national_days_2025_26 is 110,647, the HMCTS management-information
+    total for financial year 2025-26 (FEASIBILITY.md). There is no
+    per-court series. Sharing those days out by each court's disposals
+    is an assumption (days_split_assumed). The 5% default_effect is an
+    editable assumption too. The ranking uses the budget, not that 5%.
+
+overlisting:
+  label: Cut overlisting
+  cost_per_unit: 0             # pounds per ineffective trial of this cause avoided
+  unit: ineffective_trial_avoided
+  default_effect: 0.25         # remove 25% of overlisting failures. Assumed.
+  assumed: true                # £0 is a placeholder, not a measured admin cost
+  source: >
+    No public per-court cost found (FEASIBILITY.md).
+    Placeholder treats a listing-rule change as £0 admin.
+    That £0 is an assumption. The 25% effect is an assumption.
+
+defence_advocate:
+  label: Cut defence advocate failures
+  cost_per_unit: 5000          # pounds per ineffective trial of this cause avoided
+  unit: ineffective_trial_avoided
+  default_effect: 0.25         # remove 25% of these failures. Assumed.
+  assumed: true
+  source: >
+    No public per-court cost found (FEASIBILITY.md).
+    £5,000 is a round editable placeholder, not a cited fee.
+    A national advocate-uplift figure exists in the notes and is
+    not used here, because it is not a per-court cost.
+    The 25% effect is an assumption.
+
+prisoner_not_produced:
+  label: Cut prisoner not produced
+  cost_per_unit: 2000          # pounds per ineffective trial of this cause avoided
+  unit: ineffective_trial_avoided
+  default_effect: 0.25         # remove 25% of these failures. Assumed.
+  assumed: true
+  source: >
+    No public per-court cost found (FEASIBILITY.md).
+    £2,000 is a round editable placeholder, not a cited contract penalty.
+    The 25% effect is an assumption.
+
+prosecution:
+  label: Cut prosecution not ready
+  cost_per_unit: 10000         # pounds per ineffective trial of this cause avoided
+  unit: ineffective_trial_avoided
+  default_effect: 0.25         # remove 25% of these failures. Assumed.
+  assumed: true
+  source: >
+    No public per-court cost found (FEASIBILITY.md).
+    £10,000 is a round editable placeholder for prosecution
+    readiness work. It is not a cited CPS figure.
+    The 25% effect is an assumption.
+
+# In the data (reason code 23) but not one of the five UI sliders.
+# Kept so a ranking can still see it. Cost and effect are both assumed.
+judge:
+  label: Cut judge availability failures
+  cost_per_unit: 8000          # pounds per ineffective trial of this cause avoided
+  unit: ineffective_trial_avoided
+  default_effect: 0.25         # remove 25% of these failures. Assumed.
+  assumed: true
+  source: >
+    No public per-court cost found (FEASIBILITY.md).
+    £8,000 is a round editable placeholder.
+    The 25% effect is an assumption.
+    Not on the main slider list; included because the panel has judge_n
+    and judge_share.

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+.impeccable/
+data/raw/
+.streamlit/secrets.toml
+.env

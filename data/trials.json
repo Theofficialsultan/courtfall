@@ -1,0 +1,25 @@
+[
+  {
+    "court": "Snaresbrook",
+    "date": "2026-10-24",
+    "custody": "No",
+    "defence_confirmed": "Yes",
+    "cps_served": "Yes",
+    "witnesses_confirmed": "Yes",
+    "floater": "Yes",
+    "score": 33.1,
+    "band": "Amber",
+    "suggested_action": "Reduce listing ratio / standby case"
+  },
+  {
+    "court": "Snaresbrook",
+    "date": "2026-10-24",
+    "custody": "No",
+    "defence_confirmed": "No",
+    "cps_served": "No",
+    "witnesses_confirmed": "No",
+    "score": 41.5,
+    "band": "Red",
+    "suggested_action": "CPS readiness check 14 days pre-trial"
+  }
+]
